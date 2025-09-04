@@ -12,9 +12,9 @@ Showcases fundamental web development concepts including DOM manipulation, game 
 
 ## Project Structure  
 tic-tac-toe/
-│── index.html # Main game UI
-│── style.css # Styling
-│── script.js # Game logic
+# │── index.html # Main game UI
+# │── style.css # Styling
+# │── script.js # Game logic
 
 ## How to Play  
 1. Open `index.html` in your browser.  
