@@ -1,0 +1,117 @@
+* {
+    margin: 5px;
+    padding: 0;
+} 
+
+body {
+    background-color: #faedcd;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 6vh;
+    color: black;
+}
+
+.container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.box {
+    height: 18vh;
+    width: 18vh;
+    border: 0 solid;
+    background-color: #d4a373;
+    font-size: 9vh;
+    box-shadow: 0 0 2svh rgba(0, 0, 0, 0.5);
+    outline: 1px solid;
+    outline-color: black;
+    border-radius: 2vh;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+#resetBtn {
+    height: 6vh;
+    width: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0 solid;
+    border-radius: 1.1vh;
+    font-size: 3.4vh;
+    color: white;
+    box-shadow: 0 0 1vh rgba(27, 5, 5, 0.5);
+    background-color: #582f0e;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+}
+
+#newGameBtn {
+    height: 5.5vh;
+    width: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0 solid;
+    border-radius: 1.1vh;
+    font-size: 3.4vh;
+    color: white;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.5);
+    background-color: #582f0e;
+    transition: transform 0.3s ease;
+}
+
+#newGameBtn:hover {
+    cursor: pointer;
+    transform: translateY(5px) scale(1.05);
+}
+
+.msgContainer {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hideMsgContainer {
+    display: none;
+}
+
+.win {
+    color: black;
+    font-size: 10vh;
+}
+
+.winHide {
+    display: none;
+}
+
+.draw {
+    color: black;
+    font-size: 10vh;
+}
+
+.drawHide {
+    display: none;
+}
+
+.hideGame {
+    display: none;
+}
