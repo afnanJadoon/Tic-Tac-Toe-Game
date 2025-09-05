@@ -15,6 +15,8 @@ tic-tac-toe/
 <br>│── index.html # Main game UI
 <br>│── style.css # Styling
 <br>│── script.js # Game logic
+<br>│── images/  
+<br>    └── SS.png 
 
 ## How to Play  
 1. Open `index.html` in your browser.  
